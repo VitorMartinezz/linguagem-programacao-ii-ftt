@@ -14,7 +14,8 @@ import br.com.comuns.crud.ec6.vos.conteudo.Pedido;
  * @author gabriell
  */
 public class FabricaEntidades {
-    
+
+    //método que instancia um novo objeto e retona ele, de acordo com a entidade disponivel.
     public static Entidade Fabrica(EntidadesDisponiveis enumEntidade) {
         Entidade retorno;
         switch (enumEntidade)

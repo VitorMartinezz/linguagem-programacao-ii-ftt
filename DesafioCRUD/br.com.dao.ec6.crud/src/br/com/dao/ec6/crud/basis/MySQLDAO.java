@@ -17,7 +17,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
- *
+ *Classe mãe que faz a conexão com o MySQL
  * @author gabriell
  * @param <E>
  */

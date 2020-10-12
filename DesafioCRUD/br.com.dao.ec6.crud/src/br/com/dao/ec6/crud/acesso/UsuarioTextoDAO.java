@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- *
+ *Classe para configurar as credencias de acesso e a conexão ao Banco de dados Txt
  * @author gabriell
  */
 public class UsuarioTextoDAO extends DAO {
@@ -37,9 +37,7 @@ public class UsuarioTextoDAO extends DAO {
         usuariosTeste.put(1, masterUser);
         
         usuariosTeste.put(2, masterUser);
-        
-        
-        
+
     }
     @Override
     public Entidade seleciona(int id) {

@@ -14,7 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ *Classe que retorna dados do produto.
  * @author gabriell
  * @param <E>
  */

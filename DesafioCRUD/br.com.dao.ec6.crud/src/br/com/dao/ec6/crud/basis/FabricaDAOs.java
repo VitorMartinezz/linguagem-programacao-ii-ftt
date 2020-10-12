@@ -12,11 +12,16 @@ import br.com.dao.ec6.crud.acesso.UsuarioMySQLDAO;
 import br.com.dao.ec6.crud.acesso.UsuarioTextoDAO;
 
 /**
- *
+ *Classe com o gerencimento sobre o tipo de repositorio
  * @author gabriell
  */
 public class FabricaDAOs {
-    
+
+    /**
+     * faz o gerenciamento do tipo de repositorio
+     * @param enumEntidade
+     * @param repositorio
+     * */
     public static DAO Fabrica(EntidadesDisponiveis enumEntidade, TipoRepositorio repositorio) {
         switch (repositorio)
         {
@@ -29,7 +34,10 @@ public class FabricaDAOs {
         }
        
     }
-
+    /**
+     * retorna o DAO com Txt
+     * @param enumEntidade
+     * */
     private static DAO montaDAOTexto(EntidadesDisponiveis enumEntidade) {
         DAO retorno;
         switch (enumEntidade)
@@ -43,7 +51,10 @@ public class FabricaDAOs {
         }
         return retorno;    
     }
-    
+    /**
+     * retorna o DAO com MySQL
+     * @param enumEntidade
+     * */
     private static DAO montaDAOMySQL(EntidadesDisponiveis enumEntidade) {
         DAO retorno;
         switch (enumEntidade)

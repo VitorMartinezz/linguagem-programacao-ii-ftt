@@ -15,7 +15,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
- *
+ *Classe que faz a comunicação com o Arquivo Texto
  * @author gabriell
  */
 public class RepositorioArquivos extends Repositorio{

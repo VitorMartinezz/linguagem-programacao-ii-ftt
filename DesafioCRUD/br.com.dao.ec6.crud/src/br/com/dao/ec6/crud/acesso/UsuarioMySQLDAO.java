@@ -14,7 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ *Classe para configurar as credencias de acesso e a conexão ao Banco de dados MySQL
  * @author gabriell
  * @param <E>
  */

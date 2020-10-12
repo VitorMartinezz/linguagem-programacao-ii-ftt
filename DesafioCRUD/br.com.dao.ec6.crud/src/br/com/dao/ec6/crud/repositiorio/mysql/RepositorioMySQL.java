@@ -16,7 +16,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ *Classe para fazer a comunicação com o MySQL
  * @author gabriell
  */
 public class RepositorioMySQL  extends Repositorio {
